@@ -7,7 +7,7 @@
 }
 body {
     font-size: 14px;
-    background-color: #96669b;
+   background-color: #c9c9c9;
     font-family: helvetica, sans-serif;
     height: 100%;
 }
@@ -1715,7 +1715,7 @@ footer .container {} footer .ossn-footer-menu {
     padding-bottom: 10px;
 }
 footer .ossn-footer-menu a {
-    color: white;
+     color: #73087f;
     font-size: 15px;
 }
 footer .ossn-footer-menu a::after {
