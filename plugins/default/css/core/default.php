@@ -265,13 +265,12 @@ p {
 }
 .sitename {
 	float: left;
-    background: #fff;
     padding: 0px 8px;
     border-radius: 2px;
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
-    color:#29487d;
+    color:#ffffff;
 }
 .topbar-userdata .homelink a {
     font-weight: bold;
