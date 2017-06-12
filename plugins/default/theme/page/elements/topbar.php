@@ -66,6 +66,52 @@
 		</div>
 	</div>
 </div>
-</div>
 <!-- ./ ossn topbar -->
 <!-- ossn topbar -->
+<style>
+	@media only screen and (min-width:768px){
+		.hide_in_desktop{
+			  display:none;
+		}
+	}
+</style>
+<div class='hide_in_desktop'>
+<!-- ossn topbar -->
+<div class="topbar">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 left-side left">
+				
+			</div>
+			<div class="col-md-7 site-name text-center <?php echo $hide_loggedin;?>">
+				<span><a href="<?php echo ossn_site_url();?>"><?php echo ossn_site_settings('site_name');?></a></span>
+			</div>
+			<div class="col-md-3 text-right right-side">
+				<div class="topbar-menu-right">
+					<li class="ossn-topbar-dropdown-menu">
+						<div class="dropdown">
+						<?php
+							if(ossn_isLoggedin()){						
+								echo ossn_plugin_view('output/url', array(
+									'role' => 'button',
+									'data-toggle' => 'dropdown',
+									'data-target' => '#',
+									'text' => '<i class="fa fa-sort-desc"></i>',
+								));									
+								echo ossn_view_menu('topbar_dropdown'); 
+							}
+							?>
+						</div>
+					</li>                
+					<?php
+						if(ossn_isLoggedin()){
+							echo ossn_plugin_view('notifications/page/topbar');
+						}
+						?>
+				</div>
+			</div>
+		</div>
+	</div>
+       </div>
+	</div>
+<!-- ./ ossn topbar -->
