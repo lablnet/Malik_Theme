@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme xmlns="http://www.opensource-socialnetwork.org/theme/v/3.0">
+    <name>Malik_Theme</name>
+    <id>pink</id>
+    <author>Malik Umer Farooq</author>
+    <author_url>http://www.informatikon.com/</author_url>	
+    <description>A responsive theme for Ossn.</description>
+    <license>GNU General Public License, version 2</license>    
+	<license_url></license_url>
+    <version>4.4</version>
+	<requires>
+		<type>ossn_version</type>
+		<version>4.4</version>
+	</requires>
+</theme>
