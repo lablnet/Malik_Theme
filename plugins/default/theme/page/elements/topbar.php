@@ -34,7 +34,8 @@
             <div class="col-md-4">
                 	<div class="topbar-userdata">
                     	<img src="<?php echo ossn_loggedin_user()->iconURL()->smaller;?>" />
-                        <span class="name"style='color:white;'><?php echo "<a href='ossn_loggedin_user()->profileURL();'style='color:white;'>".ossn_loggedin_user()->fullname;?></a></span>
+                       <span class="name"style='color:white;'><a href='<?php echo ossn_loggedin_user()->profileURL(); ?>'style='color:white;'><?php echo ossn_loggedin_user()->fullname;
+						?></a></span>
                         <span class="homelink"><a href="<?php echo ossn_site_url();?>home"><?php echo ossn_print('home');?></a></span>
                     </div>            
             </div>
