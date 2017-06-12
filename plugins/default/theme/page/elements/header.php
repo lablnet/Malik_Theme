@@ -62,7 +62,7 @@
             </div>
 			</div>
 			<div id='show_in_mobile'>
-			<button class='btn btn-primary'><a href='<?php echo ossn_site_url("login");?>'>login</button>
+			<button class='btn btn-primary'><a href='<?php echo ossn_site_url("login");?>'>login</a></button>
 			</div>
         </div>
 </header>
