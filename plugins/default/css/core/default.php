@@ -7,7 +7,7 @@
 }
 body {
     font-size: 14px;
-    background-color: #e9ebee;
+    background-color: #96669b;
     font-family: helvetica, sans-serif;
     height: 100%;
 }
@@ -1715,8 +1715,8 @@ footer .container {} footer .ossn-footer-menu {
     padding-bottom: 10px;
 }
 footer .ossn-footer-menu a {
-    color: #807D7D;
-    font-size: 13px;
+    color: white;
+    font-size: 15px;
 }
 footer .ossn-footer-menu a::after {
     content: "|";
