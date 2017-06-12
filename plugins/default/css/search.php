@@ -2,9 +2,10 @@
 	
 }
 .ossn-search input[type='text']{
-    width: 95%;
+    width: 70%;
     margin: 0 auto;
-    color: #000;
+    background-color:#73087f;
+    color: #ffffff;
     margin-top: 10px;
     padding: 3px;
         padding-left: 6px;
