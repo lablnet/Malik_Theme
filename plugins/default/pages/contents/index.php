@@ -10,12 +10,13 @@
  */
 ?>
 <div class="row ossn-page-contents">
-		<div class="col-md-6 home-left-contents"><style>
+		<div class="col-md-6 home-left-contents">
+		<style>
 		@media only screen and (max-width: 767px) {
-   #hide_in_mobile{
-	   display:none;
-   }
-    }
+                   #hide_in_mobile{
+	            display:none;
+                }
+              }
 		</style>
 		<div id='hide_in_mobile'>
             <img src="<?php echo ossn_theme_url();?>images/users.png" />
