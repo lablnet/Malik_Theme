@@ -1,11 +1,13 @@
 .ossn-search {
 }
 .ossn-search input[type='text']{
-    width: 70%;
+	background: white;
+    width: 90%;
     margin: 0 auto;
-    color: #73087f;
+    color: black;
+	font-weight:bold;
     margin-top: 10px;
     padding: 3px;
-    padding-left: 6px;
+    padding-right: 25px;
     border-radius: 3px;
 }

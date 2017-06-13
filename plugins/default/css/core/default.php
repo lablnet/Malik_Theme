@@ -7,7 +7,7 @@
 }
 body {
     font-size: 14px;
-   background-color: #c9c9c9;
+    background-color: #c9c9c9;
     font-family: helvetica, sans-serif;
     height: 100%;
 }
@@ -89,7 +89,7 @@ p {
 /************************************
 	Layouts
 ************************************/
-/** didn't we have a minimum page height in facebook? #702 **/
+/** didn't we have a minimum page height in  #702 **/
 .ossn-layout-module,
 .ossn-layout-contents,
 .ossn-layout-media,
@@ -214,7 +214,7 @@ p {
 ********************************/
 
 .topbar {
-    background-color: #73087f;
+    background-color: #3b5998;
     border-bottom: 1px solid #29487d;
     color: #fff;
     z-index: 1;
@@ -284,7 +284,7 @@ p {
 .topbar-menu-right li:hover,
 .topbar-menu-left li:hover {
     cursor: pointer;
-    background-color: #73087f;
+    background-color: #3b5998;
 }
 .topbar .right-side-nospace .topbar-menu-right {
     margin-right: 0px;
@@ -1714,7 +1714,7 @@ footer .container {} footer .ossn-footer-menu {
     padding-bottom: 10px;
 }
 footer .ossn-footer-menu a {
-     color: #73087f;
+    color: #73087f;
     font-size: 15px;
 }
 footer .ossn-footer-menu a::after {

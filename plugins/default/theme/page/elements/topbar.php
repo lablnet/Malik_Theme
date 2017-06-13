@@ -34,7 +34,7 @@
             <div class="col-md-4">
                 	<div class="topbar-userdata">
                     	<img src="<?php echo ossn_loggedin_user()->iconURL()->smaller;?>" />
-                       <span class="name"style='color:white;'><a href='<?php echo ossn_loggedin_user()->profileURL(); ?>'style='color:white;'><?php echo ossn_loggedin_user()->fullname;
+                        <span class="name"style='color:white;'><a href='<?php echo ossn_loggedin_user()->profileURL(); ?>'style='color:white;'><?php echo ossn_loggedin_user()->fullname;
 						?></a></span>
                         <span class="homelink"><a href="<?php echo ossn_site_url();?>home"><?php echo ossn_print('home');?></a></span>
                     </div>            
@@ -67,8 +67,7 @@
 		</div>
 	</div>
 </div>
-<!-- ./ ossn topbar -->
-<!-- ossn topbar -->
+</div>
 <style>
 	@media only screen and (min-width:768px){
 		.hide_in_desktop{
@@ -82,7 +81,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 left-side left">
-				
+			
 			</div>
 			<div class="col-md-7 site-name text-center <?php echo $hide_loggedin;?>">
 				<span><a href="<?php echo ossn_site_url();?>"><?php echo ossn_site_settings('site_name');?></a></span>
@@ -115,4 +114,6 @@
 	</div>
        </div>
 	</div>
+<!-- ./ ossn topbar -->
+
 <!-- ./ ossn topbar -->

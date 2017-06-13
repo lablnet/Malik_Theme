@@ -1,6 +1,6 @@
 <style>
 	header {
-    background-color: #73087f;
+    background-color: #3b5998;
     border-bottom: 1px solid #41d1f2;
     color: #fff;
     z-index: 1;

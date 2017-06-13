@@ -44,7 +44,7 @@ foreach ($users as $user) {
                         ?>
                         <a href="<?php echo ossn_site_url("action/friend/remove?user={$user->guid}", true); ?>"
                            class='right btn btn-danger'>
-						            <img src='images/entireweb/error.png'style='width:25px;height:25px;'/>
+						            <img src='images/error.png'style='width:25px;height:25px;'/>
 
                             <?php echo ossn_print('remove:friend'); ?>
                         </a>
