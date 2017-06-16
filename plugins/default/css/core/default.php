@@ -141,6 +141,7 @@ p {
     background: #fff;
     border: 1px solid #eee;
     padding: 10px;
+	width:350px;
 }
 .ossn-page-container {
     overflow-x: hidden;

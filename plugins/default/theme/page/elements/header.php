@@ -45,6 +45,7 @@
 		margin-top:6px;
 	}
 </style>
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
 <header>	
 		<div class="container">
         	<div class="col-md-6">
